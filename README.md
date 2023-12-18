@@ -1,37 +1,36 @@
-## Comands
+## Run Comands
+
+> [!NOTE]
+> This project uses [Gradle](https://gradle.org/) as a build tool.
+>
+> The commands mentioned in this doc correspond to Gradle tasks, which can be found in the [build.gradle.kts](build.gradle.kts) file.
 
 ### Table of contents
 
 - [Run the project](#run-the-project)
 - [Run tests](#run-tests)
 
-> ![NOTE]
-> This project uses [Gradle](https://gradle.org/) as a build tool.
->
-> All commands are executed using the `gradlew` script.
->
-> Commands are gradle tasks and can be seen in the [build.gradle.kts](build.gradle.kts) file.
-
 ### Run the project
 
 > [!IMPORTANT]
-> With [Docker Compose](https://docs.docker.com/compose/) installed, run the following command:
->
-> ```bash
-> ./gradlew composeUp
-> ```
->
-> To stop the project, run the following command:
->
-> ```bash
-> ./gradlew composeDown
-> ```
+> In order to launch the solution, [Docker Compose](https://docs.docker.com/compose/) needs to be installed.
+
+To run the project services, run the following command:
+
+```bash
+./gradlew composeUp
+```
+
+To stop the project services, run the following command:
+
+```bash
+./gradlew composeDown
+```
 
 ### Run tests
 
-> [!IMPORTANT]
-> To run all tests, run the following command:
->
-> ```bash
-> ./gradlew check
-> ```
+To run all tests, run the following command:
+
+```bash
+./gradlew check
+```

@@ -8,6 +8,10 @@
 > The `turn` property can only be `B` or `W`.
 > 
 > Both `winner` and `turn` properties might not be present in the representation, depending on the game state.
+> - If the state is `in_progress` the `turn` property is present.
+> - If the state is `finished`, the `turn` property is not present and:
+>   - a draw is represented by the absence of the `winner` property. 
+>   - a win is represented by the presence of the `winner` property.
 > 
 > The `createdAt` and `updatedAt` properties are in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format `YYYY-MM-DDTHH:MM:SSZ`.
 > 

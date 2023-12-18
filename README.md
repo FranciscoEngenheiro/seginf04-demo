@@ -316,11 +316,11 @@ Status: `201 Created`
 
 ### Login a user
 
-> ![NOTE]
+> [!NOTE]
 >
 > Login a user in the system.
 
-> ![Warning]
+> [!Warning]
 > 
 > Requires authentication.
 

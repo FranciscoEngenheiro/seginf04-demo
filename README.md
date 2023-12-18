@@ -317,11 +317,9 @@ Status: `201 Created`
 ### Login a user
 
 > [!NOTE]
->
 > Login a user in the system.
 
 > [!Warning]
-> 
 > Requires authentication.
 
 #### Headers

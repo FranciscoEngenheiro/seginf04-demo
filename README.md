@@ -168,7 +168,7 @@ All responses have the following headers:
 
 ### Get home
 
-> ![NOTE]
+> [!NOTE]
 > Returns the home page information and the available resources of the API.
 
 #### Request Example
